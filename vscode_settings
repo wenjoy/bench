@@ -1,0 +1,54 @@
+{
+    "editor.lineNumbers": "relative",
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+      "**/coverage": true,
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/tmp": true,
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/tmp/**": true,
+      "**/bower_components/**": true,
+      "**/dist/**": true
+    },
+    "search.followSymlinks": false,
+    "typescript.check.npmIsInstalled": false,
+    "workbench.editor.enablePreview": false,
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "markJump.maximumLimit": -1,
+    "workbench.editor.closeEmptyGroups": false,
+    "prettier.eslintIntegration": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "python": "python3",
+        "perl": "perl",
+        "go": "go run"
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": " Monaco, 'Courier New', monospace",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "java.errors.incompleteClasspath.severity": "ignore"
+ 
