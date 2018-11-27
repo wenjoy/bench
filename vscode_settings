@@ -52,3 +52,4 @@
     "vim.mouseSelectionGoesIntoVisualMode": false,
     "java.errors.incompleteClasspath.severity": "ignore"
  
+}
