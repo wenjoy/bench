@@ -41,3 +41,13 @@ hs.loadSpoon("TimeFlow")
 
 require("ime")
 require("window")
+
+function keyStrokes(str)
+    return function()
+        hs.eventtap.keyStrokes(str)
+    end
+end
+hs.hotkey.bind({"ctrl", "alt", "cmd"}, "1", keyStrokes("5454545454545454"))
+hs.hotkey.bind({"ctrl", "alt", "cmd"}, "2", keyStrokes("022020"))
+hs.hotkey.bind({"ctrl", "alt", "cmd"}, "3", keyStrokes("george.xie@activenetwork.com"))
+
