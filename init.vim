@@ -33,6 +33,8 @@ set softtabstop=4
 set shiftwidth =2
 set nowrapscan
 set background=dark
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+set list
 "do not serach around
 
 "" key map ""
