@@ -130,13 +130,13 @@ font:
     # value specified for the normal font.
     # family: SauceCodePro Nerd Font
     # family: CodeNewRoman Nerd Font
-    family: RobotoMono Nerd Font
+    # family: RobotoMono Nerd Font
     # family: Hack
     # family: JetBrains Mono
     # family: UbuntuMono Nerd Font
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
-    # family: Mononoki Nerd Font
+    family: Mononoki Nerd Font
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -603,7 +603,7 @@ key_bindings:
    # (Windows only)
   - { key: Return,   mods: Alt,           action: ToggleFullscreen }
 
-   (macOS only)
+   # (macOS only)
   - { key: K,              mods: Command, mode: ~Vi|~Search, chars: "\x0c"            }
   - { key: K,              mods: Command, mode: ~Vi|~Search, action: ClearHistory     }
   - { key: Key0,           mods: Command,                    action: ResetFontSize    }
